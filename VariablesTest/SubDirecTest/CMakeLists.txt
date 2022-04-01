@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.08)
+message("子目录 CMakeLists.txt 文件")
+message("子目录未改变值，VAR1 = ${VAR1}")
+set(VAR1 "8888" PARENT_SCOPE)
+message("子目录改变值之后，VAR1 = ${VAR1}")
+message("退出子目录")
