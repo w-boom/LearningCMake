@@ -2,8 +2,10 @@ cmake_minimum_required(VERSION 3.08)
 
 message("父目录 CMakeLists.txt 文件")
 set(VAR1 "123456")
+set(VAR2 "999" CACHE STRING) #CACHE变量 STRING类型 
 
 message("第一次在父目录 VAR1 = ${VAR1}")
+message("第一次在父目录 VAR2 = ${VAR2}")
 
 # 函数定义
 function(MyFunction VAR_F)
@@ -18,3 +20,4 @@ message("函数调用后，VAR1 = ${VAR1}")
 
 add_subdirectory(SubDirecTest)  # 添加子目录
 message("第二次在父目录，VAR1 = ${VAR1}")
+message("第二次在父目录，VAR2 = ${VAR2}")
