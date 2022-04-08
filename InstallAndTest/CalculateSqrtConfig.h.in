@@ -1,0 +1,3 @@
+// the configured options and settings CalculateSqrt
+#define CalculateSqrt_VERSION_MAJOR @CalculateSqrt_VERSION_MAJOR@
+#define CalculateSqrt_VERSION_MINOR @CalculateSqrt_VERSION_MINOR@
