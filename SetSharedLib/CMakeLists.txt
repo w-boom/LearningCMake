@@ -15,8 +15,6 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${PROJECT_BINARY_DIR}")
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${PROJECT_BINARY_DIR}")
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_BINARY_DIR}")
 
-#动态库
-option(BUILD_SHARED_LIBS "Build using shared libraries" ON)
 
 #将版本号传递给源文件，.h.in是新建文档，.h文件是自动生成文件
 configure_file(
